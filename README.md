@@ -15,9 +15,9 @@
 
 Hệ thống xếp hạng ELO được tính toán bằng công thức sau:
 
-<math>
-ΔELO = K × (S - E)
-</math>
+$$
+\Delta ELO = K \times (S - E)
+$$
 
 Trong đó:
 - **ΔELO**: Số điểm tăng/giảm sau trận đấu
@@ -29,9 +29,9 @@ Trong đó:
 
 Xác suất thắng dự kiến (E) được tính bằng:
 
-<math>
+$$
 E = \frac{1}{1 + 10^{\frac{D}{400}}}
-</math>
+$$
 
 Trong đó:
 - **D**: MMR đối thủ - MMR của bạn
