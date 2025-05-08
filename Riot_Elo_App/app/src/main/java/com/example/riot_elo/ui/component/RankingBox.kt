@@ -1,6 +1,7 @@
-package online.devphu.truyenhub.ui.component.rankTopEnd
+package com.example.riot_elo.ui.component
 
-import android.graphics.Color
+import androidx.compose.ui.graphics.Color
+
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxSize
@@ -15,9 +16,9 @@ import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import online.devphu.truyenhub.MyBase.appColors
-import online.devphu.truyenhub.R
-import online.devphu.truyenhub.ui.theme.MyTitleStyle
+
+import com.example.riot_elo.R
+
 
 @Composable
 fun RankingBox(
@@ -40,10 +41,10 @@ fun RankingBox(
         )
         Text(
             text = RankIndex,
-            style = MyTitleStyle(),
             fontSize = 12.sp,
-            color = appColors().textWhite
+            color = Color.White, // Đây là androidx.compose.ui.graphics.Color.White
         )
+
     }
 }
 
@@ -51,8 +52,8 @@ fun RankingBox(
 fun fillColor(RankIndex: String): androidx.compose.ui.graphics.Color {
     return when (RankIndex) {
         "1" -> androidx.compose.ui.graphics.Color.Red
-        "2" -> appColors().orange
-        "3" -> appColors().lightBlue
+        "2" -> Color.Blue
+        "3" -> Color.DarkGray
         else -> androidx.compose.ui.graphics.Color.Magenta
     }
 }

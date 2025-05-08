@@ -83,11 +83,13 @@ dependencies {
     implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.8.7")
     implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.7")
 
-
     //navigation
     implementation("androidx.navigation:navigation-compose:2.8.7")
 
 
+    //icon
+    implementation ("androidx.compose.material:material-icons-extended:1.7.8")
 
+    implementation("io.coil-kt:coil-compose:2.4.0")
 
 }
