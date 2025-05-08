@@ -44,23 +44,23 @@ Giả sử:
 - MMR trung bình đối thủ: 1450
 
 Tính D:
-$$
+<math>
 D = 1450 - 1400 = 50
-$$
+</math>
 
 Tính E:
-$$
+<math>
 E = \frac{1}{1 + 10^{\frac{50}{400}}} \approx 0.43
-$$
+</math>
 
 ### Kết quả
 
 ✅ Nếu bạn thắng:
-$$
+<math>
 \Delta ELO = 32 \times (1 - 0.43) \approx +18.24
-$$
+</math>
 
 ❌ Nếu bạn thua:
-$$
+<math>
 \Delta ELO = 32 \times (0 - 0.43) \approx -13.76
-$$
+</math>
