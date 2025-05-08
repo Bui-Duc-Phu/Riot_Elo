@@ -16,7 +16,7 @@
 Hệ thống xếp hạng ELO được tính toán bằng công thức sau:
 
 $$
-\Delta ELO = K \times (S - E)
+\Delta ELO = K \times (S - E) + B
 $$
 
 Trong đó:
@@ -26,6 +26,9 @@ Trong đó:
   - 1 nếu thắng
   - 0 nếu thua
 - **E**: Xác suất thắng dự kiến (dự đoán trước trận đấu, dựa trên MMR)
+- **B**: Bonus MVP
+  - +5 ELO nếu thắng và là MVP
+  - +2~3 ELO nếu thua nhưng vẫn là MVP (có thể giúp giữ MMR tốt)
 
 Xác suất thắng dự kiến (E) được tính bằng:
 
@@ -49,9 +52,9 @@ D = 1450 - 1400 = 50
 $$
 
 Tính E:
-
+$$
 E = \frac{1}{1 + 10^{\frac{50}{400}}} = 0.43
-
+$$
 
 ### Kết quả
 
