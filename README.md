@@ -40,27 +40,13 @@ Trong đó:
 ## Ví dụ thực tế
 
 Giả sử:
-- MMR của bạn: 1400
-- MMR trung bình đối thủ: 1450
-
-Tính D:
 $$
 D = 1450 - 1400 = 50
 $$
 
 Tính E:
-$$
-E = \frac{1}{1 + 10^{\frac{50}{400}}} = 0.43
-$$
 
-### Kết quả
 
-✅ Nếu bạn thắng:
 $$
-\Delta ELO = 32 \times (1 - 0.43) = +18.24
-$$
-
-❌ Nếu bạn thua:
-$$
-\Delta ELO = 32 \times (0 - 0.43) = -13.76
+E = \frac{1}{1 + 10^{\frac{D}{400}}}
 $$
