@@ -50,17 +50,17 @@ $$
 
 Tính E:
 $$
-E = \frac{1}{1 + 10^{\frac{50}{400}}} \approx 0.43
+E = \frac{1}{1 + 10^{\frac{50}{400}}} = 0.43
 $$
 
 ### Kết quả
 
 ✅ Nếu bạn thắng:
 $$
-\Delta ELO = 32 \times (1 - 0.43) \approx +18.24
+\Delta ELO = 32 \times (1 - 0.43) = +18.24
 $$
 
 ❌ Nếu bạn thua:
 $$
-\Delta ELO = 32 \times (0 - 0.43) \approx -13.76
+\Delta ELO = 32 \times (0 - 0.43) = -13.76
 $$
