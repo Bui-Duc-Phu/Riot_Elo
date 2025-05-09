@@ -1,12 +1,12 @@
 
-const config = require('./src/configs/import')
+const config = require('./configs/import')
 // import 
 const { port,
     hostname,
     printColoredConsole,
     conFigViewEngine,
     express,
-    connectToDatabase,
+    pool,
     AllRouter
 } = config;
 
@@ -20,7 +20,7 @@ conFigViewEngine(app)
 AllRouter(app)
 
 //Connect Database
-connectToDatabase.getConnection()
+pool.getConnection()
   .then(() => {
     console.log('✅ Database connected');
   })

@@ -1,17 +1,8 @@
-// models/User.js
 class User {
-    constructor({ username, email, password }) {
-      this.username = username;
-      this.email = email;
-      this.password = password;
+    constructor(id, name, k_elo) {
+        this.id = id;
+        this.name = name;
+        this.k_elo = k_elo;
     }
-  
-    // Validate email format
-    isValidEmail() {
-      const regex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-      return regex.test(this.email);
-    }
-  }
-  
-  module.exports = User;
-  
+}
+module.exports = User;
