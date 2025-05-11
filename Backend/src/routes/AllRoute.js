@@ -1,9 +1,10 @@
 const errhandlerException = require("../middleware/errhandelExcetion");
-const libraryRouter = require('./library')
+const mainRouter = require('./mainRouter')
 
 
 
 const AllRouter  = (app) =>{
-    app.use("/library", libraryRouter);
+    app.use("/main", mainRouter);
+    app.use(errhandlerException);
 }
 module.exports = AllRouter

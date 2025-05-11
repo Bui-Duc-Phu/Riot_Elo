@@ -40,31 +40,10 @@ Trong đó:
 - **D**: MMR đối thủ - MMR của bạn
 
 
-## Ví dụ thực tế
+## Cộng Điểm LP theo Elo
 
-Giả sử:
-- MMR của bạn: 1400
-- MMR trung bình đối thủ: 1450
+Hệ thống tính điểm LP được dựa trên sự thay đổi ELO và được tính toán như sau:
 
-Tính D:
-$$
-D = 1450 - 1400 = 50
-$$
+### Công thức tính LP
 
-Tính E:
-$$
-E = \frac{1}{1 + 10^{\frac{50}{400}}} = 0.43
-$$
-
-### Kết quả
-
-✅ Nếu bạn thắng:
-$$
-\Delta ELO = 32 \times (1 - 0.43) = +18.24
-$$
-
-❌ Nếu bạn thua:
-$$
-\Delta ELO = 32 \times (0 - 0.43) = -13.76
-$$
-
+- Điểm LP làm 

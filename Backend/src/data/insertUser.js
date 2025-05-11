@@ -5,7 +5,7 @@ const pool = require('../configs/db');
 const fs = require('fs');
 const path = require('path');
 
-const filePath = path.join(__dirname, '../data/users.json'); // Đường dẫn đến file JSON
+const filePath = path.join(__dirname, '../data/user2.json'); // Đường dẫn đến file JSON
 
 let users;
 
