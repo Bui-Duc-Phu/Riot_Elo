@@ -3,6 +3,7 @@ CREATE TABLE User (
     name VARCHAR(100) NOT NULL,
     K_elo INT,
     LP INT,
+    win INT DEFAULT 0,
     rank_lever VARCHAR(30),
     image_url VARCHAR(255) NULL
 );
@@ -22,7 +23,7 @@ CREATE TABLE MatchInfo (
     match_id INT NOT NULL,
     user_id INT NOT NULL,
     champion VARCHAR(50) NOT NULL,
-    position ENUM('Top', 'Jung', 'Mid', 'Ad', 'Support') NOT NULL,
+    position ENUM('Top', 'Jungle', 'Mid', 'ADC', 'Support') NOT NULL,
     gold INT DEFAULT 0,
     kills INT DEFAULT 0,
     deaths INT DEFAULT 0,

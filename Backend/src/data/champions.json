@@ -1,682 +1,852 @@
 [
   {
     "name": "Aatrox",
-    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/1/15/Aatrox_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20180612203801"
+    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/1/15/Aatrox_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20180612203801",
+    "role": "Top"
   },
   {
     "name": "Ahri",
-    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/2/2a/Ahri_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20230201172235"
+    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/2/2a/Ahri_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20230201172235",
+    "role": "Mid"
   },
   {
     "name": "Akali",
-    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/6/6a/Akali_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20180726202056"
+    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/6/6a/Akali_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20180726202056",
+    "role": "Mid"
   },
-  {
+  {   
     "name": "Akshan",
-    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/5/5f/Akshan_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20210707203330"
+    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/5/5f/Akshan_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20210707203330",
+    "role": "Mid"
   },
   {
     "name": "Alistar",
-    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/e/ee/Alistar_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20221122024814"
+    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/e/ee/Alistar_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20221122024814",
+    "role": "Support"
   },
   {
     "name": "Ambessa",
-    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/6/65/AmbessaSquare.png/revision/latest/scale-to-width-down/42?cb=20220202072116"
+    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/6/65/AmbessaSquare.png/revision/latest/scale-to-width-down/42?cb=20220202072116",
+    "role": "Top"
   },
   {
     "name": "Amumu",
-    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/4/40/Amumu_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20150402215322"
+    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/4/40/Amumu_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20150402215322",
+    "role": "Jungle"
   },
   {
     "name": "Anivia",
-    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/0/0e/Anivia_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20151218185051"
+    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/0/0e/Anivia_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20151218185051",
+    "role": "Mid"
   },
   {
     "name": "Annie",
-    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/1/18/Annie_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20150404100758"
+    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/1/18/Annie_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20150404100758",
+    "role": "Mid"
   },
   {
     "name": "Aphelios",
-    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/9/92/Aphelios_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20200304070938"
+    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/9/92/Aphelios_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20200304070938",
+    "role": "ADC"
   },
   {
     "name": "Ashe",
-    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/7/7e/Ashe_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20150402215403"
+    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/7/7e/Ashe_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20150402215403",
+    "role": "ADC"
   },
   {
     "name": "Aurelion Sol",
-    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/6/63/Aurelion_Sol_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20160308215107"
+    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/6/63/Aurelion_Sol_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20160308215107",
+    "role": "Mid"
   },
   {
     "name": "Aurora",
-    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/9/99/Aurora_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20240626040504"
+    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/9/99/Aurora_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20240626040504",
+    "role": "Mid"
   },
   {
     "name": "Azir",
-    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/7/77/Azir_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20150402215409"
+    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/7/77/Azir_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20150402215409",
+    "role": "Mid"
   },
   {
     "name": "Bard",
-    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/3/37/Bard_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20150402215420"
+    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/3/37/Bard_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20150402215420",
+    "role": "Support"
   },
   {
     "name": "Bel'Veth",
-    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/e/e7/Bel%27Veth_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20220525195325"
+    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/e/e7/Bel%27Veth_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20220525195325",
+    "role": "Jungle"
   },
   {
     "name": "Blitzcrank",
-    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/a/ac/Blitzcrank_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20150402215457"
+    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/a/ac/Blitzcrank_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20150402215457",
+    "role": "Support"
   },
   {
     "name": "Brand",
-    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/9/9a/Brand_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20150402215533"
+    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/9/9a/Brand_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20150402215533",
+    "role": "Support"
   },
   {
     "name": "Braum",
-    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/2/28/Braum_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20150402215539"
+    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/2/28/Braum_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20150402215539",
+    "role": "Support"
   },
   {
     "name": "Briar",
-    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/f/f6/Briar_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20230904203032"
+    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/f/f6/Briar_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20230904203032",
+    "role": "Jungle"
   },
   {
     "name": "Caitlyn",
-    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/3/35/Caitlyn_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20230215152459"
+    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/3/35/Caitlyn_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20230215152459",
+    "role": "ADC"
   },
   {
     "name": "Camille",
-    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/0/0d/Camille_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20170217185322"
+    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/0/0d/Camille_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20170217185322",
+    "role": "Top"
   },
   {
     "name": "Cassiopeia",
-    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/1/10/Cassiopeia_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20150402215553"
+    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/1/10/Cassiopeia_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20150402215553",
+    "role": "Mid"
   },
   {
     "name": "Cho'Gath",
-    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/2/28/Cho%27Gath_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20150402215703"
+    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/2/28/Cho%27Gath_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20150402215703",
+    "role": "Top"
   },
   {
     "name": "Corki",
-    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/b/b2/Corki_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20160629191728"
+    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/b/b2/Corki_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20160629191728",
+    "role": "Mid"
   },
   {
     "name": "Darius",
-    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/5/59/Darius_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20160412191052"
+    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/5/59/Darius_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20160412191052",
+    "role": "Top"
   },
   {
     "name": "Diana",
-    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/d/da/Diana_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20160526212149"
+    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/d/da/Diana_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20160526212149",
+    "role": "Jungle"
   },
   {
     "name": "Dr. Mundo",
-    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/c/c3/Dr._Mundo_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20210526185145"
+    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/c/c3/Dr._Mundo_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20210526185145",
+    "role": "Top"
   },
   {
     "name": "Draven",
-    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/f/f2/Draven_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20160526212252"
+    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/f/f2/Draven_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20160526212252",
+    "role": "ADC"
   },
   {
     "name": "Ekko",
-    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/5/5f/Ekko_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20151218185247"
+    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/5/5f/Ekko_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20151218185247",
+    "role": "Jungle"
   },
   {
     "name": "Elise",
-    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/1/1b/Elise_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20160526212517"
+    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/1/1b/Elise_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20160526212517",
+    "role": "Jungle"
   },
   {
     "name": "Evelynn",
-    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/c/c1/Evelynn_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20170926190158"
+    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/c/c1/Evelynn_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20170926190158",
+    "role": "Jungle"
   },
   {
     "name": "Ezreal",
-    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/5/54/Ezreal_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20150402220010"
+    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/5/54/Ezreal_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20150402220010",
+    "role": "ADC"
   },
   {
     "name": "Fiddlesticks",
-    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/a/a5/Fiddlesticks_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20200317230512"
+    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/a/a5/Fiddlesticks_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20200317230512",
+    "role": "Jungle"
   },
   {
     "name": "Fiora",
-    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/9/94/Fiora_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20150725010749"
+    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/9/94/Fiora_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20150725010749",
+    "role": "Top"
   },
   {
     "name": "Fizz",
-    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/5/5f/Fizz_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20150402220015"
+    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/5/5f/Fizz_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20150402220015",
+    "role": "Mid"
   },
   {
     "name": "Galio",
-    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/8/8d/Galio_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20170308183135"
+    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/8/8d/Galio_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20170308183135",
+    "role": "Mid"
   },
   {
     "name": "Gangplank",
-    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/4/4e/Gangplank_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20151218185426"
+    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/4/4e/Gangplank_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20151218185426",
+    "role": "Top"
   },
   {
     "name": "Garen",
-    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/9/97/Garen_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20150402220048"
+    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/9/97/Garen_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20150402220048",
+    "role": "Top"
   },
   {
     "name": "Gnar",
-    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/2/2d/Gnar_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20160526212623"
+    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/2/2d/Gnar_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20160526212623",
+    "role": "Top"
   },
   {
     "name": "Gragas",
-    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/0/02/Gragas_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20150402220132"
+    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/0/02/Gragas_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20150402220132",
+    "role": "Jungle"
   },
   {
     "name": "Graves",
-    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/c/c7/Graves_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20170813121658"
+    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/c/c7/Graves_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20170813121658",
+    "role": "Jungle"
   },
   {
     "name": "Gwen",
-    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/c/cc/Gwen_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20210331004816"
+    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/c/cc/Gwen_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20210331004816",
+    "role": "Top"
   },
   {
     "name": "Hecarim",
-    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/c/ca/Hecarim_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20230310222350"
+    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/c/ca/Hecarim_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20230310222350",
+    "role": "Jungle"
   },
   {
     "name": "Heimerdinger",
-    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/9/97/Heimerdinger_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20150402220126"
+    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/9/97/Heimerdinger_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20150402220126",
+    "role": "Mid"
   },
   {
     "name": "Hwei",
-    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/5/5b/Hwei_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20231120223123"
+    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/5/5b/Hwei_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20231120223123",
+    "role": "Mid"
   },
   {
     "name": "Illaoi",
-    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/1/12/Illaoi_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20151111024020"
+    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/1/12/Illaoi_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20151111024020",
+    "role": "Top"
   },
   {
     "name": "Irelia",
-    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/e/eb/Irelia_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20180320194636"
+    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/e/eb/Irelia_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20180320194636",
+    "role": "Top"
   },
   {
     "name": "Ivern",
-    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/6/66/Ivern_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20221122014034"
+    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/6/66/Ivern_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20221122014034",
+    "role": "Jungle"
   },
   {
     "name": "Janna",
-    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/3/3f/Janna_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20150402220208"
+    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/3/3f/Janna_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20150402220208",
+    "role": "Support"
   },
   {
     "name": "Jarvan IV",
-    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/4/4c/Jarvan_IV_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20150402220210"
+    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/4/4c/Jarvan_IV_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20150402220210",
+    "role": "Jungle"
   },
   {
     "name": "Jax",
-    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/f/f5/Jax_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20230926225838"
+    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/f/f5/Jax_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20230926225838",
+    "role": "Top"
   },
   {
     "name": "Jayce",
-    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/d/de/Jayce_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20221122020558"
+    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/d/de/Jayce_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20221122020558",
+    "role": "Top"
   },
   {
     "name": "Jhin",
-    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/0/0b/Jhin_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20220831152825"
+    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/0/0b/Jhin_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20220831152825",
+    "role": "ADC"
   },
   {
     "name": "Jinx",
-    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/6/65/Jinx_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20160417011945"
+    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/6/65/Jinx_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20160417011945",
+    "role": "ADC"
   },
   {
     "name": "K'Sante",
-    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/5/57/K%27Sante_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20221020203752"
+    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/5/57/K%27Sante_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20221020203752",
+    "role": "Top"
   },
   {
     "name": "Kai'Sa",
-    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/1/15/Kai%27Sa_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20180221202751"
+    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/1/15/Kai%27Sa_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20180221202751",
+    "role": "ADC"
   },
   {
     "name": "Kalista",
-    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/4/4d/Kalista_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20170401005336"
+    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/4/4d/Kalista_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20170401005336",
+    "role": "ADC"
   },
   {
     "name": "Karma",
-    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/f/f7/Karma_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20150402220251"
+    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/f/f7/Karma_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20150402220251",
+    "role": "Support"
   },
   {
     "name": "Karthus",
-    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/a/a9/Karthus_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20160326090500"
+    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/a/a9/Karthus_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20160326090500",
+    "role": "Jungle"
   },
   {
     "name": "Kassadin",
-    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/9/94/Kassadin_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20220318162058"
+    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/9/94/Kassadin_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20220318162058",
+    "role": "Mid"
   },
   {
     "name": "Katarina",
-    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/7/7e/Katarina_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20150402220331"
+    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/7/7e/Katarina_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20150402220331",
+    "role": "Mid"
   },
   {
     "name": "Kayle",
-    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/8/8b/Kayle_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20190901014208"
+    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/8/8b/Kayle_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20190901014208",
+    "role": "Top"
   },
   {
     "name": "Kayn",
-    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/c/c9/Kayn_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20170628021945"
+    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/c/c9/Kayn_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20170628021945",
+    "role": "Jungle"
   },
   {
     "name": "Kennen",
-    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/7/7b/Kennen_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20160510182835"
+    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/7/7b/Kennen_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20160510182835",
+    "role": "Top"
   },
   {
     "name": "Kha'Zix",
-    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/4/40/Kha%27Zix_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20160526212833"
+    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/4/40/Kha%27Zix_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20160526212833",
+    "role": "Jungle"
   },
   {
     "name": "Kindred",
-    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/3/3c/Kindred_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20221122021113"
+    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/3/3c/Kindred_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20221122021113",
+    "role": "Jungle"
   },
   {
     "name": "Kled",
-    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/c/c4/Kled_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20170516205203"
+    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/c/c4/Kled_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20170516205203",
+    "role": "Top"
   },
   {
     "name": "Kog'Maw",
-    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/b/bd/Kog%27Maw_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20150402220409"
+    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/b/bd/Kog%27Maw_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20150402220409",
+    "role": "ADC"
   },
   {
     "name": "LeBlanc",
-    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/b/ba/LeBlanc_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20160526213056"
+    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/b/ba/LeBlanc_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20160526213056",
+    "role": "Mid"
   },
   {
     "name": "Lee Sin",
-    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/1/16/Lee_Sin_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20240418183049"
+    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/1/16/Lee_Sin_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20240418183049",
+    "role": "Jungle"
   },
   {
     "name": "Leona",
-    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/b/ba/Leona_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20150402220518"
+    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/b/ba/Leona_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20150402220518",
+    "role": "Support"
   },
   {
     "name": "Lillia",
-    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/3/35/Lillia_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20200707201152"
+    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/3/35/Lillia_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20200707201152",
+    "role": "Jungle"
   },
   {
     "name": "Lissandra",
-    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/6/6c/Lissandra_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20160526213305"
+    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/6/6c/Lissandra_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20160526213305",
+    "role": "Mid"
   },
   {
     "name": "Lucian",
-    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/1/10/Lucian_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20150402220529"
+    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/1/10/Lucian_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20150402220529",
+    "role": "ADC"
   },
   {
     "name": "Lulu",
-    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/b/bb/Lulu_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20150402220550"
+    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/b/bb/Lulu_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20150402220550",
+    "role": "Support"
   },
   {
     "name": "Lux",
-    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/b/bf/Lux_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20150402220552"
+    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/b/bf/Lux_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20150402220552",
+    "role": "Support"
   },
   {
     "name": "Malphite",
-    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/1/10/Malphite_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20150402220554"
+    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/1/10/Malphite_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20150402220554",
+    "role": "Top"
   },
   {
     "name": "Malzahar",
-    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/4/44/Malzahar_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20160419185355"
+    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/4/44/Malzahar_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20160419185355",
+    "role": "Mid"
   },
   {
     "name": "Maokai",
-    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/0/02/Maokai_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20150402220612"
+    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/0/02/Maokai_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20150402220612",
+    "role": "Support"
   },
   {
     "name": "Master Yi",
-    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/7/73/Master_Yi_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20150402220630"
+    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/7/73/Master_Yi_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20150402220630",
+    "role": "Jungle"
   },
   {
     "name": "Mel",
-    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/a/a5/MelSquare.png/revision/latest/scale-to-width-down/42?cb=20220202071832"
+    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/a/a5/MelSquare.png/revision/latest/scale-to-width-down/42?cb=20220202071832",
+    "role": "Top"
   },
   {
     "name": "Milio",
-    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/2/23/Milio_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20230308011018"
+    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/2/23/Milio_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20230308011018",
+    "role": "Support"
   },
   {
     "name": "Miss Fortune",
-    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/7/72/Miss_Fortune_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20221122021718"
+    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/7/72/Miss_Fortune_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20221122021718",
+    "role": "ADC"
   },
   {
     "name": "Mordekaiser",
-    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/7/77/Mordekaiser_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20190529201459"
+    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/7/77/Mordekaiser_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20190529201459",
+    "role": "Top"
   },
   {
     "name": "Morgana",
-    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/7/79/Morgana_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20190226165233"
+    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/7/79/Morgana_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20190226165233",
+    "role": "Support"
   },
   {
     "name": "Naafiri",
-    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/1/14/Naafiri_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20230629014147"
+    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/1/14/Naafiri_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20230629014147",
+    "role": "Mid"
   },
   {
     "name": "Nami",
-    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/d/dd/Nami_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20150402220700"
+    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/d/dd/Nami_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20150402220700",
+    "role": "Support"
   },
   {
     "name": "Nasus",
-    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/4/43/Nasus_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20150402220659"
+    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/4/43/Nasus_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20150402220659",
+    "role": "Top"
   },
   {
     "name": "Nautilus",
-    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/d/d2/Nautilus_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20160526213414"
+    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/d/d2/Nautilus_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20160526213414",
+    "role": "Support"
   },
   {
     "name": "Neeko",
-    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/2/2e/Neeko_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20181119223759"
+    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/2/2e/Neeko_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20181119223759",
+    "role": "Mid"
   },
   {
     "name": "Nidalee",
-    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/9/91/Nidalee_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20150402220734"
+    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/9/91/Nidalee_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20150402220734",
+    "role": "Jungle"
   },
   {
     "name": "Nilah",
-    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/c/ce/Nilah_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20220623023949"
+    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/c/ce/Nilah_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20220623023949",
+    "role": "ADC"
   },
   {
     "name": "Nocturne",
-    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/a/a9/Nocturne_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20150402220735"
+    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/a/a9/Nocturne_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20150402220735",
+    "role": "Jungle"
   },
   {
     "name": "Nunu & Willump",
-    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/f/f9/Nunu_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20221122022127"
+    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/f/f9/Nunu_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20221122022127",
+    "role": "Jungle"
   },
   {
     "name": "Olaf",
-    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/7/7e/Olaf_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20150402220802"
+    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/7/7e/Olaf_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20150402220802",
+    "role": "Jungle"
   },
   {
     "name": "Orianna",
-    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/7/70/Orianna_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20150402220803"
+    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/7/70/Orianna_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20150402220803",
+    "role": "Mid"
   },
   {
     "name": "Ornn",
-    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/c/ca/Ornn_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20170819003104"
+    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/c/ca/Ornn_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20170819003104",
+    "role": "Top"
   },
   {
     "name": "Pantheon",
-    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/0/03/Pantheon_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20190801100355"
+    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/0/03/Pantheon_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20190801100355",
+    "role": "Top"
   },
   {
     "name": "Poppy",
-    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/2/28/Poppy_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20151124204455"
+    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/2/28/Poppy_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20151124204455",
+    "role": "Top"
   },
   {
     "name": "Pyke",
-    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/c/c4/Pyke_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20221122022536"
+    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/c/c4/Pyke_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20221122022536",
+    "role": "Support"
   },
   {
     "name": "Qiyana",
-    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/f/f1/Qiyana_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20190611190538"
+    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/f/f1/Qiyana_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20190611190538",
+    "role": "Mid"
   },
   {
     "name": "Quinn",
-    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/c/c6/Quinn_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20150402220833"
+    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/c/c6/Quinn_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20150402220833",
+    "role": "Top"
   },
   {
     "name": "Rakan",
-    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/9/9a/Rakan_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20170404193836"
+    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/9/9a/Rakan_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20170404193836",
+    "role": "Support"
   },
   {
     "name": "Rammus",
-    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/a/a1/Rammus_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20160413190405"
+    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/a/a1/Rammus_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20160413190405",
+    "role": "Jungle"
   },
   {
     "name": "Rek'Sai",
-    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/0/0b/Rek%27Sai_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20160526213622"
+    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/0/0b/Rek%27Sai_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20160526213622",
+    "role": "Jungle"
   },
   {
     "name": "Rell",
-    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/c/ce/Rell_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20201124040049"
+    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/c/ce/Rell_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20201124040049",
+    "role": "Support"
   },
   {
     "name": "Renata Glasc",
-    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/7/74/Renata_Glasc_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20220330171748"
+    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/7/74/Renata_Glasc_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20220330171748",
+    "role": "Support"
   },
   {
     "name": "Renekton",
-    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/a/a4/Renekton_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20150402220903"
+    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/a/a4/Renekton_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20150402220903",
+    "role": "Top"
   },
   {
     "name": "Rengar",
-    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/b/b3/Rengar_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20150402220904"
+    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/b/b3/Rengar_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20150402220904",
+    "role": "Jungle"
   },
   {
     "name": "Riven",
-    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/6/62/Riven_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20150402220906"
+    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/6/62/Riven_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20150402220906",
+    "role": "Top"
   },
   {
     "name": "Rumble",
-    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/b/be/Rumble_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20150402220909"
+    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/b/be/Rumble_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20150402220909",
+    "role": "Top"
   },
   {
     "name": "Ryze",
-    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/2/23/Ryze_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20160630224634"
+    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/2/23/Ryze_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20160630224634",
+    "role": "Mid"
   },
   {
     "name": "Samira",
-    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/3/31/Samira_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20200829040527"
+    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/3/31/Samira_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20200829040527",
+    "role": "ADC"
   },
   {
     "name": "Sejuani",
-    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/6/62/Sejuani_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20150402220939"
+    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/6/62/Sejuani_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20150402220939",
+    "role": "Jungle"
   },
   {
     "name": "Senna",
-    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/1/1c/Senna_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20191030041312"
+    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/1/1c/Senna_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20191030041312",
+    "role": "Support"
   },
   {
     "name": "Seraphine",
-    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/8/81/Seraphine_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20201014004656"
+    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/8/81/Seraphine_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20201014004656",
+    "role": "Support"
   },
   {
     "name": "Sett",
-    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/d/da/Sett_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20200119095456"
+    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/d/da/Sett_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20200119095456",
+    "role": "Top"
   },
   {
     "name": "Shaco",
-    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/e/e1/Shaco_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20230821213937"
+    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/e/e1/Shaco_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20230821213937",
+    "role": "Jungle"
   },
   {
     "name": "Shen",
-    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/8/81/Shen_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20160113232959"
+    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/8/81/Shen_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20160113232959",
+    "role": "Top"
   },
   {
     "name": "Shyvana",
-    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/f/f3/Shyvana_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20150402221059"
+    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/f/f3/Shyvana_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20150402221059",
+    "role": "Jungle"
   },
   {
     "name": "Singed",
-    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/f/f4/Singed_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20150402221057"
+    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/f/f4/Singed_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20150402221057",
+    "role": "Top"
   },
   {
     "name": "Sion",
-    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/e/ea/Sion_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20150402221054"
+    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/e/ea/Sion_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20150402221054",
+    "role": "Top"
   },
   {
     "name": "Sivir",
-    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/9/90/Sivir_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20230426195957"
+    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/9/90/Sivir_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20230426195957",
+    "role": "ADC"
   },
   {
     "name": "Skarner",
-    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/3/3e/Skarner_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20240403002514"
+    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/3/3e/Skarner_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20240403002514",
+    "role": "Jungle"
   },
   {
     "name": "Smolder",
-    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/7/79/Smolder_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20240111191726"
+    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/7/79/Smolder_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20240111191726",
+    "role": "ADC"
   },
   {
     "name": "Sona",
-    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/f/fb/Sona_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20150402221141"
+    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/f/fb/Sona_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20150402221141",
+    "role": "Support"
   },
   {
     "name": "Soraka",
-    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/6/65/Soraka_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20150402221143"
+    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/6/65/Soraka_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20150402221143",
+    "role": "Support"
   },
   {
     "name": "Swain",
-    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/3/32/Swain_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20180201124449"
+    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/3/32/Swain_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20180201124449",
+    "role": "Mid"
   },
   {
     "name": "Sylas",
-    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/b/be/Sylas_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20190108224754"
+    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/b/be/Sylas_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20190108224754",
+    "role": "Mid"
   },
   {
     "name": "Syndra",
-    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/d/de/Syndra_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20231124194003"
+    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/d/de/Syndra_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20231124194003",
+    "role": "Mid"
   },
   {
     "name": "Tahm Kench",
-    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/3/3d/Tahm_Kench_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20160526213915"
+    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/3/3d/Tahm_Kench_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20160526213915",
+    "role": "Support"
   },
   {
     "name": "Taliyah",
-    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/f/f8/Taliyah_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20160510183138"
+    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/f/f8/Taliyah_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20160510183138",
+    "role": "Mid"
   },
   {
     "name": "Talon",
-    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/3/34/Talon_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20150402221208"
+    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/3/34/Talon_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20150402221208",
+    "role": "Mid"
   },
   {
     "name": "Taric",
-    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/a/a1/Taric_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20160405191023"
+    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/a/a1/Taric_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20160405191023",
+    "role": "Support"
   },
   {
     "name": "Teemo",
-    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/9/9c/Teemo_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20240925011638"
+    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/9/9c/Teemo_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20240925011638",
+    "role": "Top"
   },
   {
     "name": "Thresh",
-    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/c/c3/Thresh_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20150402221302"
+    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/c/c3/Thresh_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20150402221302",
+    "role": "Support"
   },
   {
     "name": "Tristana",
-    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/0/08/Tristana_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20150402221501"
+    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/0/08/Tristana_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20150402221501",
+    "role": "ADC"
   },
   {
     "name": "Trundle",
-    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/4/40/Trundle_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20150402221506"
+    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/4/40/Trundle_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20150402221506",
+    "role": "Top"
   },
   {
     "name": "Tryndamere",
-    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/c/c6/Tryndamere_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20150402221636"
+    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/c/c6/Tryndamere_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20150402221636",
+    "role": "Top"
   },
   {
     "name": "Twisted Fate",
-    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/2/2e/Twisted_Fate_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20150402221634"
+    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/2/2e/Twisted_Fate_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20150402221634",
+    "role": "Mid"
   },
   {
     "name": "Twitch",
-    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/f/fb/Twitch_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20150402221633"
+    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/f/fb/Twitch_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20150402221633",
+    "role": "ADC"
   },
   {
     "name": "Udyr",
-    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/2/2b/Udyr_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20220809214819"
+    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/2/2b/Udyr_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20220809214819",
+    "role": "Jungle"
   },
   {
     "name": "Urgot",
-    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/d/d0/Urgot_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20170711190113"
+    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/d/d0/Urgot_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20170711190113",
+    "role": "Top"
   },
   {
     "name": "Varus",
-    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/9/9c/Varus_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20171215205843"
+    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/9/9c/Varus_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20171215205843",
+    "role": "ADC"
   },
   {
     "name": "Vayne",
-    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/0/05/Vayne_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20150402222338"
+    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/0/05/Vayne_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20150402222338",
+    "role": "ADC"
   },
   {
     "name": "Veigar",
-    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/3/37/Veigar_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20150402222337"
+    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/3/37/Veigar_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20150402222337",
+    "role": "Mid"
   },
   {
     "name": "Vel'Koz",
-    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/0/0e/Vel%27Koz_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20150402222335"
+    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/0/0e/Vel%27Koz_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20150402222335",
+    "role": "Mid"
   },
   {
     "name": "Vex",
-    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/0/06/Vex_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20231116224716"
+    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/0/06/Vex_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20231116224716",
+    "role": "Mid"
   },
   {
     "name": "Vi",
-    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/e/ec/Vi_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20160526214220"
+    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/e/ec/Vi_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20160526214220",
+    "role": "Jungle"
   },
   {
     "name": "Viego",
-    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/8/84/Viego_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20210904152806"
+    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/8/84/Viego_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20210904152806",
+    "role": "Jungle"
   },
   {
     "name": "Viktor",
-    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/1/1c/Viktor_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20150402222333"
+    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/1/1c/Viktor_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20150402222333",
+    "role": "Mid"
   },
   {
     "name": "Vladimir",
-    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/4/43/Vladimir_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20150402222423"
+    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/4/43/Vladimir_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20150402222423",
+    "role": "Mid"
   },
   {
     "name": "Volibear",
-    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/6/6d/Volibear_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20200512204952"
+    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/6/6d/Volibear_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20200512204952",
+    "role": "Top"
   },
   {
     "name": "Warwick",
-    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/2/23/Warwick_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20170110204118"
+    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/2/23/Warwick_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20170110204118",
+    "role": "Jungle"
   },
   {
     "name": "Wukong",
-    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/9/91/Wukong_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20150402222522"
+    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/9/91/Wukong_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20150402222522",
+    "role": "Jungle"
   },
   {
     "name": "Xayah",
-    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/4/4e/Xayah_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20170404193839"
+    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/4/4e/Xayah_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20170404193839",
+    "role": "ADC"
   },
   {
     "name": "Xerath",
-    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/c/cf/Xerath_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20150402222520"
+    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/c/cf/Xerath_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20150402222520",
+    "role": "Mid"
   },
   {
     "name": "Xin Zhao",
-    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/1/1f/Xin_Zhao_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20180207001445"
+    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/1/1f/Xin_Zhao_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20180207001445",
+    "role": "Jungle"
   },
   {
     "name": "Yasuo",
-    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/a/ad/Yasuo_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20150402222545"
+    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/a/ad/Yasuo_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20150402222545",
+    "role": "Mid"
   },
   {
     "name": "Yone",
-    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/a/a6/Yone_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20200916084443"
+    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/a/a6/Yone_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20200916084443",
+    "role": "Mid"
   },
   {
     "name": "Yorick",
-    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/0/0f/Yorick_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20160823190542"
+    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/0/0f/Yorick_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20160823190542",
+    "role": "Top"
   },
   {
     "name": "Yuumi",
-    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/6/6c/Yuumi_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20190430215817"
+    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/6/6c/Yuumi_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20190430215817",
+    "role": "Support"
   },
   {
     "name": "Zac",
-    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/1/16/Zac_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20160417012331"
+    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/1/16/Zac_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20160417012331",
+    "role": "Jungle"
   },
   {
     "name": "Zed",
-    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/4/46/Zed_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20160526214523"
+    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/4/46/Zed_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20160526214523",
+    "role": "Mid"
   },
   {
     "name": "Zeri",
-    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/7/7d/Zeri_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20220330171840"
+    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/7/7d/Zeri_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20220330171840",
+    "role": "ADC"
   },
   {
     "name": "Ziggs",
-    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/7/72/Ziggs_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20160526214602"
+    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/7/72/Ziggs_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20160526214602",
+    "role": "Mid"
   },
   {
     "name": "Zilean",
-    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/1/1c/Zilean_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20150402222614"
+    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/1/1c/Zilean_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20150402222614",
+    "role": "Support"
   },
   {
     "name": "Zoe",
-    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/2/2c/Zoe_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20221122024729"
+    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/2/2c/Zoe_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20221122024729",
+    "role": "Mid"
   },
   {
     "name": "Zyra",
-    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/0/0d/Zyra_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20160526214642"
+    "imageUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/0/0d/Zyra_OriginalSquare.png/revision/latest/scale-to-width-down/42?cb=20160526214642",
+    "role": "Support"
   }
 ]

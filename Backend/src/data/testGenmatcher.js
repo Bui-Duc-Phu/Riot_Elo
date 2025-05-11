@@ -1,5 +1,7 @@
 const genMatches = require('./genMatches');
 const calculateTeamElo = require('./calculateTeamElo');
+
+
 async function testGenMatches(jsonUsers) {
     try {
         const idUsers = JSON.parse(jsonUsers);
@@ -13,11 +15,13 @@ async function testGenMatches(jsonUsers) {
 
         const { teams1Obj, teams2Obj, winnerTeams, MVPPlayer1, MVPPlayer2 } = genMatches(idUsers, userMain);
 
-        // ✅ Thêm await ở đây
+        // Calculate team Elo
         const listUser = await calculateTeamElo(teams1Obj, teams2Obj, winnerTeams, MVPPlayer1, MVPPlayer2);
-        console.log("listUser",listUser);
+        console.log("Updated users with new LP:", listUser);
 
-        return;
+   
+
+        return ;
 
     } catch (error) {
         console.error("Test failed:", error.message);
@@ -25,7 +29,7 @@ async function testGenMatches(jsonUsers) {
     }
 }
 
-// ✅ Gọi function async
+// Test function
 const tempJson = JSON.stringify([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]);
 testGenMatches(tempJson);
 

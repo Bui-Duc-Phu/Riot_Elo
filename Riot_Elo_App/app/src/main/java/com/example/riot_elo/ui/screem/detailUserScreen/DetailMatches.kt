@@ -10,7 +10,7 @@ import androidx.compose.ui.graphics.Color
 import androidx.navigation.NavController
 
 @Composable
-fun DetailUserScreen(navController: NavController) {
+fun DetailMatches(navController: NavController) {
     Box(
         modifier = Modifier.fillMaxSize().background(Color.White)
     ){

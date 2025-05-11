@@ -6,7 +6,6 @@ function calculateElo({
     isMVP 
   }) {
 
-
     let D;
 
     // RÀNG BUỘC: Nếu LP = 0 ở cả 2 đội
@@ -23,6 +22,11 @@ function calculateElo({
     let B = 0;
     if (isMVP) {
       B = isWin ? 5 : Math.floor(Math.random() * 2) + 2;
+    }
+
+    // Nếu thuộc team thua và K_elo > 50, giảm K_elo xuống 1/3
+    if (!isWin && K > 50) {
+      K = Math.floor(K / 3);
     }
   
     const deltaElo = Math.round(K * (S - E) + B);

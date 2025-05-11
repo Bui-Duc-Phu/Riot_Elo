@@ -1,4 +1,9 @@
+const championManager = require('../utils/championManager');
+
 function genMatches(idUsers, userMain) {
+    // Reset champion manager before each match
+    championManager.resetChampions();
+
     // Validate inputs
     if (!idUsers.includes(userMain)) {
         throw new Error("userMain must be in idUsers list");
@@ -47,7 +52,7 @@ function genMatches(idUsers, userMain) {
     const allAssists2 = Math.floor(0.9 * allKill2);
 
     // Generate random positions for each team (no duplicates)
-    const positions = ['Ad', 'Mid', 'Top', 'Support', 'Jung'];
+    const positions = ['ADC', 'Mid', 'Top', 'Support', 'Jungle'];
     const position1 = shuffleArray([...positions]);
     const position2 = shuffleArray([...positions]);
 
@@ -97,7 +102,8 @@ function genMatches(idUsers, userMain) {
             Kills: Math.floor(acen * allKill1),
             Death: Math.floor(acen * allDeath1),
             Assists: Math.floor(acen * allAssists1),
-            Position: position1[index]
+            Position: position1[index],
+            champion: championManager.getChampionByRole(position1[index]).name
         };
     });
 
@@ -106,12 +112,13 @@ function genMatches(idUsers, userMain) {
         const isLast = index === 4;
         const acen = isLast ? 1 - acen2.slice(0, 4).reduce((a, b) => a + b, 0) : acen2[index];
         return {
-             idUser,
+            idUser,
             gold: Math.floor(acen * allGold2),
             kills: Math.floor(acen * allKill2),
             death: Math.floor(acen * allDeath2),
             assists: Math.floor(acen * allAssists2),
-            position: position2[index]
+            position: position2[index],
+            champion: championManager.getChampionByRole(position2[index]).name
         };
     });
 
