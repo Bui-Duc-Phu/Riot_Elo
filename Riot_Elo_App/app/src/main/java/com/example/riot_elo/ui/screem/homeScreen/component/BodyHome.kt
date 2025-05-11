@@ -108,7 +108,7 @@ fun RankItem(
                     )
                     Spacer(modifier = Modifier.width(10.dp))
                     Text(
-                        text = user.rankLever.toString(), // Dynamic name, e.g., "Player 1", "Player 2"
+                        text = user.rankLever.toString(),
                         fontSize = 12.sp,
                         fontWeight = FontWeight.W400,
                         color = Color.DarkGray
@@ -129,7 +129,7 @@ fun RankItem(
                         contentAlignment = Alignment.Center
                     ){
 
-                        LoadImage(getRankImage(user.lpRank()))
+                        LoadImage(getRankImage(user.rank!!.toInt()))
                     }
                     Spacer(modifier = Modifier.width(10.dp))
                     Text(

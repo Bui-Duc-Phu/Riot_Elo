@@ -1,4 +1,4 @@
-package com.example.riot_elo.ui.screem.historyScreen.component
+package com.example.riot_elo.ui.screem.detailUserScreen.component
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
@@ -32,7 +32,7 @@ import com.example.riot_elo.ui.component.LoadImage2
 import com.example.riot_elo.ui.component.RankingBox
 
 @Composable
-fun itemHostory(
+fun ItemMemberTeam(
     match: MatchInfo,
     onClick: (() -> Unit)
 ) {
@@ -64,43 +64,61 @@ fun itemHostory(
                         .width(50.dp)
                         .height(50.dp)
                 ) {
-                    LoadImage(match.imageChampion)
+                    LoadImage(match.imageChampion.toString())
                 }
 
                 Spacer(modifier = Modifier.width(12.dp))
 
                 Column(
-                    modifier = Modifier.padding(top = 10.dp)
-                ){
+                    modifier = Modifier
+                        .padding(top = 10.dp)
+                        .weight(1f)
+                ) {
                     Text(
-                        text = "KDA "+"${match.kills}/${match.deaths}/${match.assists}",
+                        text = match.userName,
                         fontSize = 15.sp,
-                        fontWeight = FontWeight.Normal,
+                        fontWeight = FontWeight.Bold,
                         color = Color.Black
                     )
                     Spacer(modifier = Modifier.width(5.dp))
                     Text(
-                        text = "Vị trí: ${match.position}",
-                        fontSize = 11.sp,
-                        fontWeight = FontWeight.W400,
-                        color = Color.DarkGray
+                        text = "KDA " + "${match.kills}/${match.deaths}/${match.assists}",
+                        fontSize = 14.sp,
+                        fontWeight = FontWeight.Normal,
+                        color = Color.Black
                     )
                 }
+
 
 
 
 
                 Box(
-                    modifier = Modifier.weight(1f),
                     contentAlignment = Alignment.Center
-                ){
-                    Text(
-                        text = if (match.isWin) "Victory" else "Defeated",
-                        fontSize = 16.sp,
-                        fontWeight = FontWeight.Normal,
-                        color = if (match.isWin) Color.Green else Color.Red
-                    )
+                ) {
+                    Column(
+                        modifier = Modifier.padding(top = 10.dp),
+                        horizontalAlignment = Alignment.CenterHorizontally
+                    ) {
+                        Text(
+                            text = "${match.champion}",
+                            fontSize = 15.sp,
+                            fontWeight = FontWeight.Bold,
+                            color = Color.Black
+                        )
+                        Spacer(modifier = Modifier.width(5.dp))
+                        Text(
+                            text = "Gold: ${match.gold}", // Dynamic name, e.g., "Player 1", "Player 2"
+                            fontSize = 11.sp,
+                            fontWeight = FontWeight.W400,
+                            color = Color.DarkGray
+                        )
+                    }
+
                 }
+
+
+                Spacer(modifier = Modifier.width(20.dp))
 
 
                 Box(
@@ -110,8 +128,6 @@ fun itemHostory(
                 ) {
                     LoadImage2(getLaneInmageLink(match.position))
                 }
-
-
 
             }
 

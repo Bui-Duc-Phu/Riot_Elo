@@ -26,14 +26,15 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.example.riot_elo.MyBase.getRankImage
+import com.example.riot_elo.models.MatchInfo
 import com.example.riot_elo.models.User
 import com.example.riot_elo.ui.component.LoadImage
 import com.example.riot_elo.ui.component.RankingBox
 
 @Composable
 fun BodyHistory(
-    list: List<User>,
-    onClick: ((User) -> Unit)
+    list: List<MatchInfo>,
+    onClick: ((String) -> Unit)
 ) {
     Box(
         modifier = Modifier
@@ -46,13 +47,12 @@ fun BodyHistory(
                 .background(Color.White)
                 .verticalScroll(rememberScrollState())
         ) {
-            list.forEachIndexed { index, user ->
+            list.forEachIndexed { index, match ->
                 itemHostory(
-                    index = index + 1, // Hiển thị thứ hạng bắt đầu từ 1
-                    user = user,
                     onClick = {
-                        onClick(user)
-                    }
+                        onClick(match.matchId)
+                    },
+                    match = match
                 )
             }
         }

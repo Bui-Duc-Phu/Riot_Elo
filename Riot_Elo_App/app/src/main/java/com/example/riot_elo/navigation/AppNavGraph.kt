@@ -19,20 +19,23 @@ import com.example.riot_elo.ui.screem.homeScreen.HomeScreen
 fun AppNavGraph(navController: NavHostController) {
     NavHost(
         navController = navController,
-        startDestination = Route.HistoryScreen.route,
+        startDestination = Route.HomeScreen.route,
         modifier = Modifier.fillMaxSize()
     ) {
         composable(Route.HomeScreen.route) { HomeScreen(navController) }
 
         composable(
-            Route.DetailUserScreen.route,
+            Route.DetailMatches.route,
             enterTransition = {
                 slideIntoContainer(AnimatedContentTransitionScope.SlideDirection.Left, tween(500)) // Hiệu ứng mở
             },
             exitTransition = {
                 slideOutOfContainer(AnimatedContentTransitionScope.SlideDirection.Right, tween(500)) // Hiệu ứng quay lại
             }
-        ) { DetailMatches(navController) }
+        ) {  backStackEntry ->
+            val id = backStackEntry.arguments?.getString("id") ?: "1"
+            DetailMatches(navController, id)
+        }
 
         composable(
             Route.HistoryScreen.route

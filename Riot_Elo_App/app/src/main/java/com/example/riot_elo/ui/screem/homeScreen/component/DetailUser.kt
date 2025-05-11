@@ -23,15 +23,13 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.example.riot_elo.MyBase.getRankImage
-import com.example.riot_elo.R
-import com.example.riot_elo.models.User
+import com.example.riot_elo.models.UserDetial
+import com.example.riot_elo.models.imageFaker
 import com.example.riot_elo.ui.component.LoadImage
-import com.example.riot_elo.ui.component.safeClickable
-import java.nio.file.WatchEvent
 
 @Composable
 fun DetaiUser(
-    user: User,
+    user: UserDetial?,
     onClickHistory: () -> Unit
 ) {
     Box(
@@ -50,14 +48,14 @@ fun DetaiUser(
                         .width(100.dp)
                         .height(100.dp)
                 ) {
-                    LoadImage(user.imageUrl.toString())
+                    LoadImage(user?.imageUrl?.toString() ?: imageFaker)
                 }
                 Spacer(modifier = Modifier.width(15.dp))
                 Column(
                     modifier = Modifier.fillMaxWidth()
                 ) {
                     Text(
-                        text = user.name,
+                        text = user!!.name ,
                         fontSize = 20.sp,
                         color = Color.Black, fontWeight = FontWeight.Medium
                     )
@@ -90,19 +88,19 @@ fun DetaiUser(
                     verticalArrangement = Arrangement.Center
                 ) {
                     Text(
-                        text = "Mức Rank: " + "Đại cao thủ",
+                        text = "Mức Rank: " + user!!.rankLever,
                         fontSize = 16.sp,
                         color = Color.Black, fontWeight = FontWeight.W400
                     )
                     Spacer(modifier = Modifier.height(3.dp))
                     Text(
-                        text = "Tổng trận win: " + "120" + " trận",
+                        text = "Tổng trận win: " + user.totalWins + " trận",
                         fontSize = 16.sp,
                         color = Color.Black, fontWeight = FontWeight.W400
                     )
                     Spacer(modifier = Modifier.height(3.dp))
                     Text(
-                        text = "Tỷ lệ thắng: " + "50" + "%",
+                        text = "Tỷ lệ thắng: " + user.winRate + "%",
                         fontSize = 16.sp,
                         color = Color.Black, fontWeight = FontWeight.W400
                     )
@@ -114,15 +112,9 @@ fun DetaiUser(
                         modifier = Modifier
                             .width(130.dp)
                             .height(100.dp),
-
                         ) {
-                        LoadImage(getRankImage(user.lpRank()))
+                        LoadImage(getRankImage(user?.rank?.toInt() ?: 1))
                     }
-                    Text(
-                        text = "III",
-                        fontSize = 20.sp,
-                        color = Color.Black, fontWeight = FontWeight.SemiBold
-                    )
                 }
                 Spacer(modifier = Modifier.width(10.dp))
             }

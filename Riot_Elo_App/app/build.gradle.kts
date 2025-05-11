@@ -63,7 +63,7 @@ dependencies {
     debugImplementation(libs.androidx.ui.test.manifest)
 
 
-    // Ktor client dependencies
+// Ktor client dependencies
     implementation("io.ktor:ktor-client-core:2.3.0")
     implementation("io.ktor:ktor-client-android:2.3.0")
     implementation("io.ktor:ktor-client-json:2.3.0")
@@ -72,10 +72,10 @@ dependencies {
 
 
     //hilt
-    implementation("com.google.dagger:hilt-android:2.51.1")
+    implementation("com.google.dagger:hilt-android:2.56.1")
     kapt("com.google.dagger:hilt-android-compiler:2.51.1")
-    kapt("androidx.hilt:hilt-compiler:1.2.0")
-
+    kapt ("androidx.hilt:hilt-compiler:1.2.0")
+    implementation("androidx.hilt:hilt-navigation-compose:1.1.0")
 
     //viewmodel
     implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.8.7")

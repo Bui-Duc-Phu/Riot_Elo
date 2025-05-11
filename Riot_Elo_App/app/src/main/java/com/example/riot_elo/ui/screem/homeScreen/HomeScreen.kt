@@ -12,15 +12,24 @@ import androidx.compose.runtime.remember
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.navigation.NavController
-import com.example.riot_elo.data.MyImage
+
 import com.example.riot_elo.ui.screem.homeScreen.component.BodyHome
 import com.example.riot_elo.ui.screem.homeScreen.component.DetailBottonSheet
 import com.example.riot_elo.ui.screem.homeScreen.component.ToolbarHome
 import androidx.compose.runtime.*
 
+import androidx.hilt.navigation.compose.hiltViewModel
+import com.example.riot_elo.models.setRankForUsers
+import com.example.riot_elo.navigation.Route
+
 
 @Composable
-fun HomeScreen(navController: NavController) {
+fun HomeScreen(
+    navController: NavController,
+    viewmodel: HomeViewmodel = hiltViewModel()
+) {
+
+    val listUser by viewmodel.listUser.collectAsState()
 
     var showSheet by remember { mutableStateOf(false) }
     Box(
@@ -31,17 +40,26 @@ fun HomeScreen(navController: NavController) {
         ){
             ToolbarHome()
             BodyHome(
-                list = MyImage.userList,
+                list = listUser,
                 onClick ={ user->
+                    viewmodel.fetchUserDetailById(user.id)
                    if(user != null){
                        showSheet = true
                    }
+
                 }
             )
+
+
         }
         DetailBottonSheet(
             showSheet = showSheet,
-            onDismiss ={ showSheet = false}
+            onDismiss = { showSheet = false },
+            viewmodel = viewmodel,
+            onClickHistory = {
+                showSheet = false
+                navController.navigate(Route.HistoryScreen.route)
+            }
         )
 
     }
