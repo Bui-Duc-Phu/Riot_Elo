@@ -1,0 +1,182 @@
+[
+    {
+        "id": "1",
+        "name": "ProGamer123",
+        "kElo": "2500",
+        "lp": "3500",
+        "win": "150",
+        "rankLever": "Cao Thủ",
+        "imageUrl": "https://example.com/avatar1.jpg"
+    },
+    {
+        "id": "2",
+        "name": "LeagueMaster",
+        "kElo": "2400",
+        "lp": "3200",
+        "win": "145",
+        "rankLever": "Cao Thủ",
+        "imageUrl": "https://example.com/avatar2.jpg"
+    },
+    {
+        "id": "3",
+        "name": "DiamondPlayer",
+        "kElo": "2300",
+        "lp": "2800",
+        "win": "140",
+        "rankLever": "Kim Cương",
+        "imageUrl": "https://example.com/avatar3.jpg"
+    },
+    {
+        "id": "4",
+        "name": "PlatinumPro",
+        "kElo": "2200",
+        "lp": "1800",
+        "win": "135",
+        "rankLever": "Bạch Kim",
+        "imageUrl": "https://example.com/avatar4.jpg"
+    },
+    {
+        "id": "5",
+        "name": "GoldRush",
+        "kElo": "2100",
+        "lp": "550",
+        "win": "130",
+        "rankLever": "Vàng 3",
+        "imageUrl": "https://example.com/avatar5.jpg"
+    },
+    {
+        "id": "6",
+        "name": "SilverStar",
+        "kElo": "2000",
+        "lp": "350",
+        "win": "125",
+        "rankLever": "Bạc 3",
+        "imageUrl": "https://example.com/avatar6.jpg"
+    },
+    {
+        "id": "7",
+        "name": "BronzeWarrior",
+        "kElo": "1900",
+        "lp": "150",
+        "win": "120",
+        "rankLever": "Đồng 3",
+        "imageUrl": "https://example.com/avatar7.jpg"
+    },
+    {
+        "id": "8",
+        "name": "ChallengerPro",
+        "kElo": "2600",
+        "lp": "3800",
+        "win": "160",
+        "rankLever": "Thách Đấu",
+        "imageUrl": "https://example.com/avatar8.jpg"
+    },
+    {
+        "id": "9",
+        "name": "MasterPlayer",
+        "kElo": "2550",
+        "lp": "3700",
+        "win": "158",
+        "rankLever": "Đại Cao Thủ",
+        "imageUrl": "https://example.com/avatar9.jpg"
+    },
+    {
+        "id": "10",
+        "name": "DiamondElite",
+        "kElo": "2450",
+        "lp": "2900",
+        "win": "142",
+        "rankLever": "Kim Cương",
+        "imageUrl": "https://example.com/avatar10.jpg"
+    },
+    {
+        "id": "11",
+        "name": "PlatinumElite",
+        "kElo": "2350",
+        "lp": "1900",
+        "win": "138",
+        "rankLever": "Bạch Kim",
+        "imageUrl": "https://example.com/avatar11.jpg"
+    },
+    {
+        "id": "12",
+        "name": "GoldElite",
+        "kElo": "2250",
+        "lp": "580",
+        "win": "132",
+        "rankLever": "Vàng 4",
+        "imageUrl": "https://example.com/avatar12.jpg"
+    },
+    {
+        "id": "13",
+        "name": "SilverElite",
+        "kElo": "2150",
+        "lp": "380",
+        "win": "128",
+        "rankLever": "Bạc 4",
+        "imageUrl": "https://example.com/avatar13.jpg"
+    },
+    {
+        "id": "14",
+        "name": "BronzeElite",
+        "kElo": "2050",
+        "lp": "180",
+        "win": "122",
+        "rankLever": "Đồng 4",
+        "imageUrl": "https://example.com/avatar14.jpg"
+    },
+    {
+        "id": "15",
+        "name": "ChallengerElite",
+        "kElo": "2650",
+        "lp": "3900",
+        "win": "162",
+        "rankLever": "Thách Đấu",
+        "imageUrl": "https://example.com/avatar15.jpg"
+    },
+    {
+        "id": "16",
+        "name": "MasterElite",
+        "kElo": "2600",
+        "lp": "3750",
+        "win": "159",
+        "rankLever": "Đại Cao Thủ",
+        "imageUrl": "https://example.com/avatar16.jpg"
+    },
+    {
+        "id": "17",
+        "name": "DiamondMaster",
+        "kElo": "2500",
+        "lp": "2950",
+        "win": "144",
+        "rankLever": "Kim Cương",
+        "imageUrl": "https://example.com/avatar17.jpg"
+    },
+    {
+        "id": "18",
+        "name": "PlatinumMaster",
+        "kElo": "2400",
+        "lp": "1950",
+        "win": "139",
+        "rankLever": "Bạch Kim",
+        "imageUrl": "https://example.com/avatar18.jpg"
+    },
+    {
+        "id": "19",
+        "name": "GoldMaster",
+        "kElo": "2300",
+        "lp": "590",
+        "win": "133",
+        "rankLever": "Vàng 4",
+        "imageUrl": "https://example.com/avatar19.jpg"
+    },
+    {
+        "id": "20",
+        "name": "SilverMaster",
+        "kElo": "2200",
+        "lp": "390",
+        "win": "129",
+        "rankLever": "Bạc 4",
+        "imageUrl": "https://example.com/avatar20.jpg"
+    }
+] 
