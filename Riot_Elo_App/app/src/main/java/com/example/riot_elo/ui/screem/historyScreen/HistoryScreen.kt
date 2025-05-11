@@ -8,15 +8,23 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.navigation.NavController
+import com.example.riot_elo.data.MyImage
+import com.example.riot_elo.ui.screem.historyScreen.component.BodyHistory
+import com.example.riot_elo.ui.screem.historyScreen.component.itemHostory
 
 @Composable
 fun HistoryScreen(navController: NavController) {
     Box(
         modifier = Modifier.fillMaxSize().background(Color.White)
     ){
-        Text(
-            text = "hello "
+
+        BodyHistory(
+            list = MyImage.userList,
+            onClick = {
+
+            }
         )
+
     }
 
 }

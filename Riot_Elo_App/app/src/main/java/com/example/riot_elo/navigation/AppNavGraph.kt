@@ -6,11 +6,10 @@ import androidx.compose.animation.core.tween
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.graphics.BlendMode.Companion.Screen
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
-import com.example.riot_elo.ui.screem.detailUserScreen.DetailUserScreen
+import com.example.riot_elo.ui.screem.detailUserScreen.DetailMatches
 import com.example.riot_elo.ui.screem.historyScreen.HistoryScreen
 import com.example.riot_elo.ui.screem.homeScreen.HomeScreen
 
@@ -20,7 +19,7 @@ import com.example.riot_elo.ui.screem.homeScreen.HomeScreen
 fun AppNavGraph(navController: NavHostController) {
     NavHost(
         navController = navController,
-        startDestination = Route.HomeScreen.route,
+        startDestination = Route.HistoryScreen.route,
         modifier = Modifier.fillMaxSize()
     ) {
         composable(Route.HomeScreen.route) { HomeScreen(navController) }
@@ -33,7 +32,7 @@ fun AppNavGraph(navController: NavHostController) {
             exitTransition = {
                 slideOutOfContainer(AnimatedContentTransitionScope.SlideDirection.Right, tween(500)) // Hiệu ứng quay lại
             }
-        ) { DetailUserScreen(navController) }
+        ) { DetailMatches(navController) }
 
         composable(
             Route.HistoryScreen.route

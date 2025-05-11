@@ -19,7 +19,7 @@ import androidx.compose.ui.unit.dp
 import coil.compose.AsyncImage
 
 @Composable
-fun LoadImage(image: Any,) {
+fun LoadImage2(image: Any,) {
     when (image) {
         is Int -> {
             Image(
@@ -36,8 +36,7 @@ fun LoadImage(image: Any,) {
                 contentScale = ContentScale.FillBounds,
                 modifier = Modifier
                     .fillMaxSize()
-                    .clip(CircleShape)
-                    .border(2.dp, Color.Gray, CircleShape)
+                    .border(1.dp, Color.LightGray)
             )
         }
     }

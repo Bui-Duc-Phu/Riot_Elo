@@ -24,8 +24,10 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.example.riot_elo.MyBase.getRankImage
+import com.example.riot_elo.data.getLaneInmageLink
 import com.example.riot_elo.models.User
 import com.example.riot_elo.ui.component.LoadImage
+import com.example.riot_elo.ui.component.LoadImage2
 import com.example.riot_elo.ui.component.RankingBox
 
 @Composable
@@ -67,58 +69,57 @@ fun itemHostory(
 
                 Spacer(modifier = Modifier.width(12.dp))
 
-                Column {
-                    Spacer(modifier = Modifier.width(10.dp))
-
+                Column(
+                    modifier = Modifier.padding(top = 10.dp)
+                ){
                     Text(
-                        text = user.name, // Dynamic name, e.g., "Player 1", "Player 2"
+                        text = "KDA "+"5/12/20",
                         fontSize = 15.sp,
                         fontWeight = FontWeight.Normal,
                         color = Color.Black
                     )
-                    Spacer(modifier = Modifier.width(10.dp))
+                    Spacer(modifier = Modifier.width(5.dp))
                     Text(
-                        text = user.rankLever.toString(), // Dynamic name, e.g., "Player 1", "Player 2"
-                        fontSize = 12.sp,
+                        text = "Đường Rừng", // Dynamic name, e.g., "Player 1", "Player 2"
+                        fontSize = 11.sp,
                         fontWeight = FontWeight.W400,
                         color = Color.DarkGray
                     )
                 }
 
-                Spacer(modifier = Modifier.weight(1f))
 
-                Column(
-                    modifier = Modifier.fillMaxHeight(),
-                    verticalArrangement = Arrangement.Center,
-                    horizontalAlignment = Alignment.CenterHorizontally
+
+
+                Box(
+                    modifier = Modifier.weight(1f),
+                    contentAlignment = Alignment.Center
+                ){
+                    Text(
+                        text = "Victory",
+                        fontSize = 16.sp,
+                        fontWeight = FontWeight.Normal,
+                        color = Color.Green
+                    )
+                }
+
+
+
+
+
+                Box(
+                    modifier = Modifier
+                        .width(50.dp)
+                        .height(50.dp)
                 ) {
-                    Box(
-                        modifier = Modifier
-                            .width(45.dp)
-                            .height(38.dp),
-                        contentAlignment = Alignment.Center
-                    ) {
-
-                        LoadImage(getRankImage(user.lpRank()))
-                    }
-                    Spacer(modifier = Modifier.width(10.dp))
-                    Text(
-                        text = "LP: " + user.lp + " Điểm", // Dynamic name, e.g., "Player 1", "Player 2"
-                        fontSize = 12.sp,
-                        fontWeight = FontWeight.W400,
-                        color = Color.DarkGray
-                    )
+                    LoadImage2(getLaneInmageLink("top"))
                 }
 
+                Spacer(modifier = Modifier.width(10.dp))
+
+
 
             }
-            Spacer(modifier = Modifier.width(10.dp))
-            Box(
 
-            ) {
-                RankingBox(index.toString())
-            }
-            Spacer(modifier = Modifier.width(20.dp))
         }
 
     }

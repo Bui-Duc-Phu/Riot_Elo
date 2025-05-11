@@ -7,7 +7,6 @@ import androidx.compose.runtime.Composable
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.border
 import androidx.compose.foundation.layout.fillMaxSize
-import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.shape.CircleShape
 
@@ -36,7 +35,7 @@ fun LoadImage(image: Any,) {
                 contentDescription = "Image from Resource",
                 contentScale = ContentScale.FillBounds,
                 modifier = Modifier
-                    .size(48.dp)
+                    .fillMaxSize()
                     .clip(CircleShape)
                     .border(2.dp, Color.Gray, CircleShape)
             )
