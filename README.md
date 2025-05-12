@@ -2,10 +2,10 @@
 
 
 
-# UI APP Mobile (React Native) 
+# UI APP Mobile (Android jetpack Compose)
 
  - home: xem bảng xếp hạng rank người chơi theo điểm rank
- - User Detail:  show ra rank , điểm , name , image
+ - User Detail:  show ra rank ,K_elo, LP ,Tỉ lệ thắng, số trận win
  - History : show ra các trạn đấu theo dạng list mỗi item gồm thời gian thi đấu , KDA, thắng hay thua
 
 
@@ -44,6 +44,9 @@ Trong đó:
 
 Hệ thống tính điểm LP được dựa trên sự thay đổi ELO và được tính toán như sau:
 
-### Công thức tính LP
+- Điểm LP sẽ quyết định mức rank , mỗi khi thắng hoạc thua trân sẽ được công hoạc trừ  LP = Elo, điểm cộng nhiều hay it là hệ số K quết định 
 
-- Điểm LP làm 
+- Điểm ẩn K_Elo sẽ được tính toán như sau :
+  + Với chuỗi win 2 trận trở lên thì k sẽ được tăng thêm 10 điểm, tăng đến 100 thì ko tăng nữa, đang chuỗi thua mà win 1 trân thì set chuỗi win về 1
+  + Vơi chuỗi thua 2 trận trở lên thì k sẽ bị giảm 10 điểm, giảm đến 20 là ko giảm nữa, đang chuỗi win mà thua 1 trận thì set chuỗi thua về -1
+  + nếu k > 50 mà gặp chuỗi thua thì  k = k/2 -> người có elo cao sẽ bị trừ it điểm hơn khi thua
