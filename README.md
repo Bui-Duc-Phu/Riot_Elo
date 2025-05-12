@@ -49,4 +49,5 @@ Hệ thống tính điểm LP được dựa trên sự thay đổi ELO và đư
 - Điểm ẩn K_Elo sẽ được tính toán như sau :
   + Với chuỗi win 2 trận trở lên thì k sẽ được tăng thêm 10 điểm, tăng đến 100 thì ko tăng nữa, đang chuỗi thua mà win 1 trân thì set chuỗi win về 1
   + Vơi chuỗi thua 2 trận trở lên thì k sẽ bị giảm 10 điểm, giảm đến 20 là ko giảm nữa, đang chuỗi win mà thua 1 trận thì set chuỗi thua về -1
+  [Click vào đây để xem mã nguồn của tính LP Cộng thêm](Backend/src/data/calculateElo.js)
   + nếu k > 50 mà gặp chuỗi thua thì  k = k/2 -> người có elo cao sẽ bị trừ it điểm hơn khi thua
